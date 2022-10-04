@@ -1,23 +1,74 @@
 /* Add your code in each class */
 body {
+  margin: 0;
+  padding: 0;
+  background-color: #1b0c2c;
 }
 .container {
+  /* margin: 2%;
+  padding: 2%; */
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  /* flex-direction: column;
+  object-position: center; */
+  
 }
+
 .movie-card {
+  flex-direction: column;
+  object-position: center;
 }
+
 .movie-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 1000% 0%;
+    text-align: center;
+
+
 }
 .movie-details-container {
+  text-align: left;
+  text-align: end;
+color: white;
+  position: absolute;
+    width: 200px;
+    height: 200px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+} 
+
+
+.descriptions { 
+
+  height: 200px;
+  width: 200px;
+
 }
-.descriptions {
+p {
+  margin-top: 60%;
+  text-align: left;
+}
+h6 {
+  text-align: left;
 }
 
 /*A gift from us!*/
-.movie-shadow {
-  /*
-    This gradient was made by this website https://cssgradient.io/
-*/
-  position: absolute;
+
+
+
+/* .movie-shadow {
+    /* This gradient was made by this website https://cssgradient.io/ */
+/* 
+position: absolute;
   height: 100%;
   width: 100%;
   background: rgb(0, 0, 0);
@@ -26,6 +77,6 @@ body {
     rgba(0, 0, 0, 0.75) 0%,
     rgba(0, 0, 0, 0) 100%
   );
-}
-.movie-title {
-}
+} */ 
+/* .movie-title {
+}  */
